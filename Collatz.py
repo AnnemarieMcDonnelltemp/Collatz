@@ -9,10 +9,10 @@ while n!=1:
     #check if n is even.
     if n % 2 == 0:
         #if n is even, divide by 2.
-        n=n/2
+        n=n//2 #double // removes the dec integer
     else:
         #if n is odd, multiply by 3 and add 1.
-        n=(3*n)+1
+        n=(3 * n) + 1
 
     #Finally, print the 1.
     print (n)
